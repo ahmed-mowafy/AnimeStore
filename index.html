@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Anime Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content = "width = width=device-width, intitial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel = "stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <header>
+      <div class="coon">
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/logo-white.png" width="125px">
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a class="home" href="#">Home</a></li>        
+              <li><a class="products" href="#">Product</a></li>
+              <li><a class="about" href="#">About</a></li>
+              <li><a class="contact" href="#">Contact</a></li>        
+              <li><a class="account" href="#">Account</a></li>
+            </ul>
+<!--width="30px" height="30px"--->
+            <i class="fa-solid fa-shopping-bag"></i>
+            <img src="images/logo.png" class="menu-icon" onclick="menutoggle()"  >
+          </nav>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Give Your Workout<br>A New Style</h1>
+            <p>Success isn't always about greatness, It's about consistancy, consistent<br>hard work gains success, Greatness will come.</p>
+            <a href="#" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/a.png">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <!---------featured-categrories------------->
+    
+    <section class="categories">
+      <div class="small-con">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/l.jpg">
+          </div>
+          <div class="col-3">
+            <img src="images/g.jpg">
+          </div>
+          <div class="col-3">
+            <img src="images/k.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="small-con">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">   
+          <div class="product">
+            <img src="images/straw-hat.jpg">
+            <h4>Loffy's Straw Hat</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>   
+            <p>$100.00</p>
+          </div>
+          <div class="product">
+            <img src="images/98e1fad66766d33377da3263f5af1141.jpg">
+            <h4>One Peice Wanted Posters</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>   
+            <p>$200.00</p>
+          </div>
+          <div class="product">
+            <img src="images/c.jpg">
+            <h4>Conan's Glasses</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>   
+            <p>$20.00</p>
+          </div>
+          <div class="product">
+            <img src="images/Cell.jpg">
+            <h4>Cell Game</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>   
+            <p>$50.00</p>
+          </div>
+        </div>
+
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+          <div class="product">
+            <img src="images/products/bay.jpeg">
+            <h4>Bey-Blade Phantom Orien</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>   
+            <p>$70.00</p>
+          </div>
+          <div class="product">
+            <img src="images/products/hunter-card.jpg">
+            <h4>Pro Hunter Card</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>   
+            <p>$190.00</p>
+          </div>
+          <div class="product">
+            <img src="images/products/zanba.jpeg">
+            <h4>Echigo's Zanbakto Sword</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>   
+            <p>$300.00</p>
+          </div>
+          <div class="product">
+            <img src="images/products/wanted.jpeg">
+            <h4>Loffy Wanted T-Shirt Black</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>   
+            <p>$200.00</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="product">
+            <img src="images/products/p-i.jpeg">
+            <h4>Goku Perfect Instant Toy</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>   
+            <p>$50.00</p>
+          </div>
+          <div class="product">
+            <img src="images/products/satoro.jpg">
+            <h4>Satoru Gojo T-Shirt White</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>   
+            <p>$220.00</p>
+          </div>
+          <div class="product">
+            <img src="images/products/suit.jpeg">
+            <h4>Goku's New Suit</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>   
+            <p>$200.00</p>
+          </div>
+          <div class="product">
+            <img src="images/products/ninga.jpg">
+            <h4>Ninga Knife</h4>
+            <div class="rating">            
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>   
+            <p>$40.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <!-------------Offer-------------------------->
+    
+    
+    <section class="offer">
+      <div class="small-con">
+        <div class="row">
+          <div class="col-2">
+            <img class="offer-img" src="images/products/deck.png">
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on AnimeStore</p>
+            <h1>Legandary Dragon Decks</h1>
+            <small>The Legandary Dragon Decks contained legendary & powerful cards </small>
+            <a href="#" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <!-------------Testimonial-------------------------->
+    
+    
+    <section class="cards" id="testimonial">
+      <div class="content">
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <div class="comment">
+            <p>Create & Design Web Applications with powerful Security system & great interfaces.</p>
+          </div>
+          <div class="rating">            
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="user-img">
+            <img src="images/users/Ahmed.jpg">
+          </div>
+          <div class="username">
+            <h3>Ahmed Mowafy</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <div class="comment">
+            <p>Create & Design Web Applications with powerful Security system & great interfaces.</p>
+          </div>
+          <div class="rating">            
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="user-img">
+            <img src="images/users/IchigoKurosaki.png">
+          </div>
+          <div class="username">
+            <h3>Ichigo Kurosaki</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <div class="comment">
+            <p>Create & Design Web Applications with powerful Security system & great interfaces.</p>
+          </div>
+          <div class="rating">            
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div class="user-img">
+            <img src="images/users/gum.jpg">
+          </div>
+          <div class="username">
+            <h3>Gumball Waterson</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    <!-----------Brands------------------>
+    
+    
+    <section class="brands">
+      <div class="small-con">
+        <div class="row">
+          <div class="b-img">
+            <img src="images/products/oppo.png">
+          </div>
+          <div class="b-img">
+            <img src="images/products/cocacola.png ">
+          </div>
+          <div class="b-img">
+            <img src="images/products/amazon.png">
+          </div>
+          <div class="b-img">
+            <img src="images/products/paypal.png">
+          </div>
+          <div class="b-img">
+            <img src="images/products/philips.png ">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    <!---------footer-------------->
+    <footer class="footer">
+      <div class="coon">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android & ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="images/play-store.png">
+              <img src="images/app-store.png">
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo-white.png">
+            <p>Our Purpose Is To Sustainably Make the Pleasure and Happiness of Anime to Accessible to the Many.</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Tweeter</li>
+              <li>instagram</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2022 - Ahmed Mowafy</p>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+<!------------------Js for toggle menu------------------>
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      
+      MenuItems.style.maxHeight = "0px";
+      
+      function menutoggle(){
+        if (MenuItems.style.maxHeight == "200px")
+          {
+            MenuItems.style.maxHeight = "0px";
+          }
+        else
+          {
+            MenuItems.style.maxHeight = "0px";
+          }
+      }
+    </script>
+    
+  </body>  
+</html>
